@@ -1,5 +1,7 @@
 import React from "react";
 
+import Main from "../main";
+
 import {
   FloatBar,
   Settings,
@@ -41,6 +43,9 @@ function Global() {
 
       {/*fixed on large screens easy to navigate through section og main components*/}
       <FloatBar />
+
+      {/*  */}
+      <Main />
     </div>
   );
 }

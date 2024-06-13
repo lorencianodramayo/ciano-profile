@@ -1014,13 +1014,16 @@ body .body-overlay {
   padding: 54px 0 48px 0;
   margin-bottom: 20px;
   transition: 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .skills .skill:hover .skill-inner {
   border-color: var(--primary_color);
 }
 .skills .skill .skill-inner img {
   display: block;
-  margin: auto auto 29px auto;
 }
 .skills .skill .skill-inner h1 {
   font-size: 30px;

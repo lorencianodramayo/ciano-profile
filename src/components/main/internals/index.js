@@ -1,0 +1,10 @@
+export { default as About } from "./About";
+export { default as ClientLogos } from "./ClientLogos";
+export { default as Contact } from "./Contact";
+export { default as HeroSection } from "./HeroSection";
+export { default as Portfolio } from "./Portfolio";
+export { default as Pricing } from "./Pricing";
+export { default as Resume } from "./Resume";
+export { default as Service } from "./Services";
+export { default as Skills } from "./Skills";
+export { default as Testimonials } from "./Testimonials.jsx";
