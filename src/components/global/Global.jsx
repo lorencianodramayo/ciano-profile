@@ -1,6 +1,12 @@
 import React from "react";
 
-import { Settings, Sidebar, VideoLoader } from "./internals";
+import {
+  FloatBar,
+  Settings,
+  SideBar,
+  SideMenu,
+  VideoLoader,
+} from "./internals";
 
 import "./css/App.css";
 import "./css/responsive.css";
@@ -28,7 +34,13 @@ function Global() {
       <Settings clickEvent={changeVideo} />
 
       {/* Left Side Bar and it will get executed on large devices*/}
-      <Sidebar />
+      <SideBar />
+
+      {/*when user interacts with the hamburger menu it display the inner-components*/}
+      <SideMenu />
+
+      {/*fixed on large screens easy to navigate through section og main components*/}
+      <FloatBar />
     </div>
   );
 }

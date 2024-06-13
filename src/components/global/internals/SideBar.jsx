@@ -1,11 +1,11 @@
 /**
- * <Sidebar />
+ * <SideBar />
  *
  * @component
  *
  * @return {React.ReactNode}
  */
-function Sidebar() {
+function SideBar() {
   return (
     <div className="left-sidebar">
       <div className="sidebar-header d-flex align-items-center justify-content-between">
@@ -43,4 +43,4 @@ function Sidebar() {
   );
 }
 
-export default Sidebar;
+export default SideBar;
