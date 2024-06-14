@@ -37,7 +37,7 @@ function SideBar() {
         </li>
       </ul>
       <a href="#" className="theme-btn">
-        <i className="las la-envelope"></i> Hire Me!
+        <i className="las la-download"></i> Download CV
       </a>
     </div>
   );
