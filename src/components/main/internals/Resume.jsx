@@ -24,24 +24,54 @@ function Resume() {
           <div className="resume-timeline">
             <div className="item scroll-animation" data-aos="fade-right">
               <span className="date">2020 - Present</span>
-              <h2>Framer Desinger & Developer</h2>
-              <p>Brunodee Agency</p>
-              <h2>Front-End WordPress Developer</h2>
-              <p>Envato Market</p>
+
+              <h2>Senior Frontend Developer</h2>
+              <p>Eclaro</p>
+
+              <h2>Interim Product Manager</h2>
+              <p>Ad-Lib.io</p>
+
+              <h2>Creative Developer</h2>
+              <p>Ad-Lib.io</p>
             </div>
+
             <div className="item scroll-animation" data-aos="fade-left">
-              <span className="date">2013 - 2019</span>
-              <h2>Webflow Developer & Co-Founder</h2>
-              <p>Designflow Studio</p>
-              <h2>Web Designer</h2>
-              <p>Freelance</p>
-              <h2>Leader Team of Marketing</h2>
-              <p>AHA Marketing Agency</p>
+              <span className="date">2014 - 2020</span>
+              <h2>Creative Developer</h2>
+              <p>Sizmek by Amazon</p>
+
+              <h2>Applications Developer</h2>
+              <p>Funai Corporation</p>
+
+              <h2>Web Developer</h2>
+              <p>Customer Benefit Services Inc</p>
             </div>
+
             <div className="item scroll-animation" data-aos="fade-right">
-              <span className="date">2010 - 2013</span>
+              <span className="date">Freelance</span>
+              <h2>Full-Stack Developer</h2>
+              <p>Smartly Video &amp; Display</p>
+
+              <h2>Wordpress Developer</h2>
+              <p>GoLaunch Services</p>
+
+              <h2>Full-Stack MERN Developer</h2>
+              <p>Parktastic PH</p>
+
+              <h2>Full-Stack Developer</h2>
+              <p>Martech &amp; Techtube</p>
+
+              <h2>HTML Developer</h2>
+              <p>Upwork</p>
+
+              <h2>Wordpress Developer</h2>
+              <p>Enkatsu Dojo</p>
+            </div>
+
+            <div className="item scroll-animation" data-aos="fade-left">
+              <span className="date">2010 - 2014</span>
               <h2>Bachelor Degree of Information Technology</h2>
-              <p>US RMIT University</p>
+              <p>University of Cebu Lapu-Lapu and Mandaue</p>
             </div>
           </div>
         </div>

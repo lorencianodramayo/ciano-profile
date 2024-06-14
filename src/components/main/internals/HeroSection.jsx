@@ -21,12 +21,12 @@ function HeroSection() {
               <i className="las la-home"></i> Introduction
             </h4>
             <h1 className="scroll-animation" data-aos="fade-up">
-              Say Hi from <span>Ciano</span>, Full-Stack Developer
+              Hey! I&apos;m <span>Ciano</span>,<br />a Full-Stack Developer
             </h1>
           </div>
           <p className="scroll-animation" data-aos="fade-up">
-            I design and code beautifully simple things and i love what i do.
-            Just simple like that!
+            I build and perfect elegantly simple solutions, from front-end to
+            back-end. I love what I do. It&apos;s just that simple!
           </p>
           <a
             href="#portfolio"
@@ -38,7 +38,7 @@ function HeroSection() {
           </a>
           <div className="facts d-flex">
             <div className="left scroll-animation" data-aos="fade-right">
-              <h1>6+</h1>
+              <h1>8+</h1>
               <p>
                 Years of Frontend <br />
                 Experience

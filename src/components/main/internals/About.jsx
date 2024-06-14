@@ -17,18 +17,20 @@ function About() {
               <i className="lar la-user"></i> About
             </h4>
             <h1 className="scroll-animation" data-aos="fade-up">
-              Every great developer begin with
+              The tale behind every <span>great 
               <br />
-              an even <span>better story</span>
+              developer</span> starts even better.
             </h1>
           </div>
           <p className="scroll-animation" data-aos="fade-up">
-            Since beginning my journey as a freelance designer nearly 8 years
-            ago, I&apos;ve done remote work for agencies, consulted for startups, and
-            collaborated with talented people to create digital products for
-            both business and consumer use. I&apos;m quietly confident, naturally
-            curious, and perpetually working on improving my chopsone design
-            problem at a time.
+            It has been over ten years since I began my career as a UI designer.
+            I&apos;ve created a few designs, mostly for dental and skin care items.
+            and they saw potential in me at the time, offering me the chance to
+            work as a web developer, making desktop database management,
+            mock-ups, and applications. Since then, I&apos;ve become obsessed with
+            development, and in an effort to quench my curiosity, I&apos;ve tried my
+            hand at everything from making advertisements to building and
+            managing a completely functional application.
           </p>
         </div>
       </div>
