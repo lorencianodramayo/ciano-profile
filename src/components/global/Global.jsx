@@ -4,10 +4,10 @@ import Main from "../main";
 
 import {
   FloatBar,
-  Settings,
+  // Settings,
   SideBar,
   SideMenu,
-  VideoLoader,
+  // VideoLoader,
 } from "./internals";
 
 import "./css/App.css";
@@ -21,19 +21,23 @@ import "./css/responsive.css";
  * @return {React.ReactNode}
  */
 function Global() {
-  const [currentVideo, setVideo] = React.useState("");
+  // const [currentVideo, setVideo] = React.useState("");
 
-  const changeVideo = React.useCallback((videos) => {
-    setVideo(videos);
+  // const changeVideo = React.useCallback((videos) => {
+  //   setVideo(videos);
+  // }, []);
+
+  React.useEffect(() => {
+    document.documentElement.style.setProperty("--primary_color", "#e4af12");
   }, []);
 
   return (
     <div>
       {/* Page Loader */}
-      <VideoLoader video={currentVideo} />
+      {/* <VideoLoader video={currentVideo} /> */}
 
       {/* Settings icon */}
-      <Settings clickEvent={changeVideo} />
+      {/* <Settings clickEvent={changeVideo} /> */}
 
       {/* Left Side Bar and it will get executed on large devices*/}
       <SideBar />

@@ -40,7 +40,7 @@ function HeroSection() {
             <div className="left scroll-animation" data-aos="fade-right">
               <h1>6+</h1>
               <p>
-                Years of Frontend<br />
+                Years of Frontend <br />
                 Experience
               </p>
             </div>
@@ -48,7 +48,7 @@ function HeroSection() {
             <div className="scroll-animation" data-aos="zoom-in">
               <h1>5+</h1>
               <p>
-                Years of Backend<br />
+                Years of Backend <br />
                 Experience
               </p>
             </div>
@@ -56,7 +56,7 @@ function HeroSection() {
             <div className="right scroll-animation" data-aos="fade-left">
               <h1>2+</h1>
               <p>
-                Years of Design<br />
+                Years of Design <br />
                 Experience
               </p>
             </div>
