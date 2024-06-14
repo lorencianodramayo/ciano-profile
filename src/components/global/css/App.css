@@ -15,7 +15,7 @@
     * 12 - Services
     * 13 - Skills
     * 14 - Portfolio
-    * 15 - Testimonial
+    * 15 - hobbies
     * 16 - Client
     * 17 - Pricing Table
     * 18 - Contact
@@ -1111,64 +1111,64 @@ body .body-overlay {
   border-color: #ffffff;
 }
 
-/* 15 - Testimonial */
-.testimonial-item .testimonial-item-inner {
+/* 15 - hobbies */
+.hobbies-item .hobbies-item-inner {
   border: 2px solid #565656;
   border-radius: 30px;
   padding: 50px 50px 43px 50px;
 }
-.testimonial-item .testimonial-item-inner .author {
+.hobbies-item .hobbies-item-inner .author {
   gap: 16px;
   margin-bottom: 45px;
 }
-.testimonial-item .testimonial-item-inner .author img {
+.hobbies-item .hobbies-item-inner .author img {
   width: 45px;
   height: 45px;
   border-radius: 50%;
   object-fit: cover;
 }
-.testimonial-item .testimonial-item-inner .author h3 {
+.hobbies-item .hobbies-item-inner .author h3 {
   font-size: 18px;
   font-weight: 300;
   color: #fff;
   margin-bottom: 6px;
 }
-.testimonial-item .testimonial-item-inner .author p {
+.hobbies-item .hobbies-item-inner .author p {
   color: #999999;
   font-size: 13px;
   margin: 0;
   line-height: 1.3;
 }
-.testimonial-item .testimonial-item-inner .author p span {
+.hobbies-item .hobbies-item-inner .author p span {
   color: var(--primary_color);
 }
-.testimonial-item .testimonial-item-inner > p {
+.hobbies-item .hobbies-item-inner > p {
   font-size: 24px;
   color: #fff;
   font-weight: 300;
   line-height: 36px;
   margin-bottom: 27px;
 }
-.testimonial-item .testimonial-item-inner .project-btn {
+.hobbies-item .hobbies-item-inner .project-btn {
   font-size: 12px;
   color: #fff;
   text-transform: uppercase;
   display: inline-block;
 }
 
-.testimonial-area .testimonial-slider-wrap .testimonial-footer-nav {
+.hobbies-area .hobbies-slider-wrap .hobbies-footer-nav {
   margin-top: 50px;
 }
-.testimonial-area
-  .testimonial-slider-wrap
-  .testimonial-footer-nav
-  .testimonial-nav {
+.hobbies-area
+  .hobbies-slider-wrap
+  .hobbies-footer-nav
+  .hobbies-nav {
   gap: 15px;
 }
-.testimonial-area
-  .testimonial-slider-wrap
-  .testimonial-footer-nav
-  .testimonial-nav
+.hobbies-area
+  .hobbies-slider-wrap
+  .hobbies-footer-nav
+  .hobbies-nav
   button {
   width: 45px;
   height: 45px;
@@ -1181,28 +1181,28 @@ body .body-overlay {
   color: #fff;
   transition: 0.3s;
 }
-.testimonial-area
-  .testimonial-slider-wrap
-  .testimonial-footer-nav
-  .testimonial-nav
+.hobbies-area
+  .hobbies-slider-wrap
+  .hobbies-footer-nav
+  .hobbies-nav
   button:hover {
   border-color: var(--primary_color);
   color: var(--primary_color);
 }
-.testimonial-area
-  .testimonial-slider-wrap
-  .testimonial-footer-nav
-  .testimonial-nav
-  #testimonial-slide-count {
+.hobbies-area
+  .hobbies-slider-wrap
+  .hobbies-footer-nav
+  .hobbies-nav
+  #hobbies-slide-count {
   font-size: 13px;
   color: #666666;
   font-weight: 300;
 }
-.testimonial-area
-  .testimonial-slider-wrap
-  .testimonial-footer-nav
-  .testimonial-nav
-  #testimonial-slide-count
+.hobbies-area
+  .hobbies-slider-wrap
+  .hobbies-footer-nav
+  .hobbies-nav
+  #hobbies-slide-count
   .left {
   color: #fff;
 }

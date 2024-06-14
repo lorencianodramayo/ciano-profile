@@ -65,10 +65,10 @@ function SideMenu() {
               <li>
                 <a
                   className="scroll-to"
-                  href="#testimonial"
+                  href="#hobbies"
                   onClick={removeActive}
                 >
-                  <i className="lar la-comment"></i> <span>Testimonial</span>
+                  <i className="lar la-comment"></i> <span>hobbies</span>
                 </a>
               </li>
               <li>

@@ -39,7 +39,7 @@ function FloatBar() {
         </a>
       </li>
       <li>
-        <a className="scroll-to" href="#testimonial">
+        <a className="scroll-to" href="#hobbies">
           <span>Hobbies</span> <i className="las la-gamepad"></i>
         </a>
       </li>

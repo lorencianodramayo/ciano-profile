@@ -83,8 +83,8 @@ $(function(){
 
 
 
-    if ($('.testimonial-slider').length) {
-        var testimonial = $('.testimonial-slider').owlCarousel({
+    if ($('.hobbies-slider').length) {
+        var hobbies = $('.hobbies-slider').owlCarousel({
             items: 1,
             margin: 30,
             stagePadding: 0,
@@ -97,11 +97,11 @@ $(function(){
             onTranslated : counter //When the translation of the stage has finished.
         });
 
-        $('.testimonial-nav .next').on('click', function() {
-            testimonial.trigger('next.owl.carousel');
+        $('.hobbies-nav .next').on('click', function() {
+            hobbies.trigger('next.owl.carousel');
         })
-        $('.testimonial-nav .prev').on('click', function() {
-            testimonial.trigger('prev.owl.carousel', [300]);
+        $('.hobbies-nav .prev').on('click', function() {
+            hobbies.trigger('prev.owl.carousel', [300]);
         })
 
 
@@ -114,7 +114,7 @@ $(function(){
         if(item > items) {
                 item = item - items
         }
-        $('#testimonial-slide-count').html("<span class='left'>"+item+"</span> / "+items)
+        $('#hobbies-slide-count').html("<span class='left'>"+item+"</span> / "+items)
         }
     }
 
@@ -290,6 +290,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     updateActiveNavItems();
   
-    // Testimonial Slider
-    var testimonialSlider = document.querySelector('.testimonial-slider');
+    // hobbies Slider
+    var hobbiesSlider = document.querySelector('.hobbies-slider');
 })

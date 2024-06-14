@@ -23,11 +23,11 @@ function Hobbies() {
 
   return (
     <section
-      className="testimonial-area page-section scroll-to-page"
-      id="testimonial"
+      className="hobbies-area page-section scroll-to-page"
+      id="hobbies"
     >
       <div className="custom-container">
-        <div className="testimonial-content content-width">
+        <div className="hobbies-content content-width">
           <div className="section-header">
             <h4 className="subtitle scroll-animation" data-aos="fade-up">
               <i className="las la-gamepad"></i> Hobbies
@@ -37,18 +37,18 @@ function Hobbies() {
             </h1>
           </div>
           <div
-            className="testimonial-slider-wrap scroll-animation"
+            className="hobbies-slider-wrap scroll-animation"
             data-aos="fade-up"
           >
             <OwlCaraousel
-              className="owl-carousel testimonial-slider owl-theme"
+              className="owl-carousel hobbies-slider owl-theme"
               smartSpeed="450"
               items={1}
               dots={false}
               ref={carouselRef}
             >
-              <div className="testimonial-item">
-                <div className="testimonial-item-inner">
+              <div className="hobbies-item">
+                <div className="hobbies-item-inner">
                   <div className="author d-flex align-items-center">
                     <img
                       src="../assets/images/testimonial-1.jpg"
@@ -59,8 +59,8 @@ function Hobbies() {
                 </div>
               </div>
 
-              <div className="testimonial-item">
-                <div className="testimonial-item-inner">
+              <div className="hobbies-item">
+                <div className="hobbies-item-inner">
                   <div className="author d-flex align-items-center">
                     <img
                       src="../assets/images/testimonial-2.jpg"
@@ -71,8 +71,8 @@ function Hobbies() {
                 </div>
               </div>
 
-              <div className="testimonial-item">
-                <div className="testimonial-item-inner">
+              <div className="hobbies-item">
+                <div className="hobbies-item-inner">
                   <div className="author d-flex align-items-center">
                     <img
                       src="../assets/images/testimonial-3.jpg"
@@ -83,8 +83,8 @@ function Hobbies() {
                 </div>
               </div>
             </OwlCaraousel>
-            <div className="testimonial-footer-nav">
-              <div className="testimonial-nav d-flex align-items-center">
+            <div className="hobbies-footer-nav">
+              <div className="hobbies-nav d-flex align-items-center">
                 <button
                   className="prev"
                   onClick={handlePrevClick}
