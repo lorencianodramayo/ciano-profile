@@ -2087,3 +2087,8 @@ body .body-overlay {
     top: 0;
   }
 }
+
+/* Custom */
+#smooth-content {
+  overflow-x: hidden;
+}

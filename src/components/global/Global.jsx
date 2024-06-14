@@ -32,7 +32,7 @@ function Global() {
   }, []);
 
   return (
-    <div>
+    <>
       {/* Page Loader */}
       {/* <VideoLoader video={currentVideo} /> */}
 
@@ -50,7 +50,7 @@ function Global() {
 
       {/*  */}
       <Main />
-    </div>
+    </>
   );
 }
 
