@@ -33,17 +33,12 @@ function Service() {
               </p>
               <span className="projects">24 Projects</span>
             </div>
+
             <div className="service-item scroll-animation" data-aos="fade-up">
               <i className="las la-code"></i>
               <h2>Development</h2>
               <p>I build website go live with Framer, Webflow or WordPress</p>
               <span className="projects">126 Projects</span>
-            </div>
-            <div className="service-item scroll-animation" data-aos="fade-up">
-              <i className="las la-bezier-curve"></i>
-              <h2>SEO/Marketing</h2>
-              <p>Increase the traffic for your website with SEO optimized</p>
-              <span className="projects">8 Projects</span>
             </div>
           </div>
         </div>

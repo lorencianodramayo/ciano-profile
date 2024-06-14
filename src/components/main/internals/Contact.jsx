@@ -14,7 +14,7 @@ function Contact() {
         <div className="contact-content content-width">
           <div className="section-header">
             <h4 className="subtitle scroll-animation" data-aos="fade-up">
-              <i className="las la-dollar-sign"></i> contact
+              <i className="las la-envelope"></i> contact
             </h4>
             <h1 className="scroll-animation" data-aos="fade-up">
               Let&apos;s Work <span>Together!</span>
@@ -49,6 +49,7 @@ function Contact() {
                     name="full-name"
                     id="full-name"
                     placeholder="Your Full Name"
+                    autoComplete={null}
                   />
                 </div>
               </div>
@@ -62,9 +63,11 @@ function Contact() {
                     name="email"
                     id="email"
                     placeholder="Your email adress"
+                    autoComplete={null}
                   />
                 </div>
               </div>
+
               <div className="col-md-6">
                 <div className="input-group">
                   <label htmlFor="phone-number">
@@ -75,6 +78,7 @@ function Contact() {
                     name="phone-number"
                     id="phone-number"
                     placeholder="Your number phone"
+                    autoComplete={null}
                   />
                 </div>
               </div>
@@ -85,25 +89,13 @@ function Contact() {
                   </label>
                   <select name="subject" id="subject">
                     <option value="">Select a subject</option>
-                    <option value="subject1">Subject 1</option>
-                    <option value="subject2">Subject 2</option>
-                    <option value="subject3">Subject 3</option>
+                    <option value="connect">Let&apos;s Connect!</option>
+                    <option value="job">Job Opportunity</option>
+                    <option value="freelance">Freelance Works</option>
                   </select>
                 </div>
               </div>
-              <div className="col-md-12">
-                <div className="input-group">
-                  <label htmlFor="budget">
-                    your budget <span>(optional)</span>
-                  </label>
-                  <input
-                    type="number"
-                    name="budget"
-                    id="budget"
-                    placeholder="A range budget htmlFor your project"
-                  />
-                </div>
-              </div>
+
               <div className="col-md-12">
                 <div className="input-group">
                   <label htmlFor="message">message</label>

@@ -5,12 +5,12 @@ import {
   ClientLogos,
   Contact,
   HeroSection,
+  Hobbies,
   Portfolio,
-  Pricing,
+  // Pricing,
   Resume,
   Service,
   Skills,
-  Testimonials,
 } from "./internals";
 
 /**
@@ -33,9 +33,9 @@ function Main() {
           <Service />
           <Skills />
           <Portfolio />
-          <Testimonials />
+          <Hobbies />
           <ClientLogos />
-          <Pricing />
+          {/* <Pricing /> */}
           <Contact />
         </div>
       </div>

@@ -7,4 +7,4 @@ export { default as Pricing } from "./Pricing";
 export { default as Resume } from "./Resume";
 export { default as Service } from "./Services";
 export { default as Skills } from "./Skills";
-export { default as Testimonials } from "./Testimonials.jsx";
+export { default as Hobbies } from "./Hobbies";
