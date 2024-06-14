@@ -39,7 +39,7 @@ function HeroSection() {
           </a>
           <div className="facts d-flex">
             <div className="left scroll-animation" data-aos="fade-right">
-              <h1>8+</h1>
+              <h1>9+</h1>
               <p>
                 Years of Frontend <br />
                 Experience
@@ -47,7 +47,7 @@ function HeroSection() {
             </div>
 
             <div className="scroll-animation" data-aos="zoom-in">
-              <h1>5+</h1>
+              <h1>3+</h1>
               <p>
                 Years of Backend <br />
                 Experience
