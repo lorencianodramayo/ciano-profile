@@ -21,7 +21,8 @@ function HeroSection() {
               <i className="las la-home"></i> Introduction
             </h4>
             <h1 className="scroll-animation" data-aos="fade-up">
-              Hey! I&apos;m <span>Ciano</span>,<br />a Full-Stack Developer
+              Hey! I&apos;m <span>Ciano</span>,
+              <br /> a Full-Stack Developer
             </h1>
           </div>
           <p className="scroll-animation" data-aos="fade-up">
