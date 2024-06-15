@@ -14,7 +14,7 @@ function SideBar() {
       </div>
       <img className="me" src="./assets/images/me.jpg" alt="Me" />
       <h2 className="email">cianodev@gmail.com</h2>
-      <h2 className="address">Base in Mindoro, PH</h2>
+      <h2 className="address">Oriental Mindoro, PH</h2>
       <p className="copyright">&copy; 2024 Ciano. All Rights Reserved</p>
       <ul className="social-profile d-flex align-items-center flex-wrap justify-content-center">
         <li>

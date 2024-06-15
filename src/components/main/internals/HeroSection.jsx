@@ -55,7 +55,7 @@ function HeroSection() {
             </div>
 
             <div className="right scroll-animation" data-aos="fade-left">
-              <h1>2+</h1>
+              <h1>2</h1>
               <p>
                 Years of Design <br />
                 Experience

@@ -40,7 +40,7 @@ function Resume() {
               <h2>Creative Developer</h2>
               <p>Sizmek by Amazon</p>
 
-              <h2>Applications Developer</h2>
+              <h2>Application Developer</h2>
               <p>Funai Corporation</p>
 
               <h2>Web Developer</h2>
@@ -55,7 +55,7 @@ function Resume() {
               <h2>Wordpress Developer</h2>
               <p>GoLaunch Services</p>
 
-              <h2>Full-Stack MERN Developer</h2>
+              <h2>MERN Developer</h2>
               <p>Parktastic PH</p>
 
               <h2>Full-Stack Developer</h2>
